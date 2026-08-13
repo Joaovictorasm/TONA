@@ -2,7 +2,7 @@
 
 Plataforma de acompanhamento físico e nutricional para profissionais de nutrição e educação física. Permite criar, gerenciar e personalizar protocolos de treino e alimentação para alunos, com funcionalidades de substituição inteligente de exercícios e alimentos mantendo os macronutrientes semelhantes.
 
-## �� 🚀 Funcionalidades
+##  🚀 Funcionalidades
 
 - **Gestão de Protocolos**: Crie e organize planos de treino e alimentação para cada aluno.
 - **Banco de Exercícios**: Cadastre exercícios com grupos musculares e equipamentos.
@@ -13,7 +13,7 @@ Plataforma de acompanhamento físico e nutricional para profissionais de nutriç
 - **API RESTful**: Endpoints completos para integração com front-end ou outros sistemas.
 - **Documentação Automática**: Swagger UI disponível em `/docs`.
 
-## �� 🛠��️ Tecnologias Utilizadas
+##  🛠 Tecnologias Utilizadas
 
 ### Backend
 - **Python 3.11**
@@ -28,7 +28,7 @@ Plataforma de acompanhamento físico e nutricional para profissionais de nutriç
 - **TypeScript**
 - **React 18**
 
-## �� 📂 Estrutura do Projeto
+##  📂 Estrutura do Projeto
 
 ```
 TONA/
@@ -52,7 +52,7 @@ TONA/
     └── next.config.js
 ```
 
-## �� 🚦 Como Executar
+##  🚦 Como Executar
 
 ### Pré-requisitos
 - Python 3.11+
@@ -139,7 +139,7 @@ TONA/
 
 5. Acesse o front-end em: http://localhost:3000
 
-## �� 📖 Uso da API
+##  📖 Uso da API
 
 ### Exemplos de requisições (usando curl)
 
@@ -173,7 +173,7 @@ from app.services import find_similar_exercises
 similar = find_similar_exercises(db, target_exercise)
 ```
 
-## �� 🧠 Lógica de Substituição
+##  🧠 Lógica de Substituição
 
 ### Exercícios
 A função `find_similar_exercises` busca exercícios que possuírem o mesmo `muscle_group` do exercício alvo, excluindo o próprio exercício.
